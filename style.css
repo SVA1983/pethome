@@ -20,6 +20,18 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
+.dog-img {
+  width: 228px;
+  height: 480px;
+  padding-left: 40px;
+  margin-bottom: 130px;
+}
+
+.dog-img:hover {
+  transform: scale(1.5);
+  transition: all 0.3s;
+}
+
 .for__item {
   height: 415px;
   grid-column: span 6;
@@ -283,6 +295,11 @@ body {
   font-weight: 700;
   color: #444;
   background-image: url(img/pethome/Tuzik.jpeg);
+}
+
+.center-info {
+  text-align: justify;
+  text-indent: 50px;
 }
 
 .content::-ms-expand {
