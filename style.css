@@ -239,7 +239,7 @@ body {
 }
 
 .top .title {
-  color: rgb(255, 139, 15);
+  color: rgb(243, 126, 10);
   margin-bottom: 50px;
   font-weight: 400;
   font-size: 25px;
@@ -254,13 +254,13 @@ body {
 }
 
 .top-content {
-  padding-bottom: 128px;
   padding-top: 50px;
   width: 100%;
 }
 
 .top-content__title {
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .top-content .content {
@@ -378,6 +378,7 @@ body {
 .license-title {
   margin-bottom: 50px;
   margin-top: 40px;
+  text-align: center;
 }
 
 .license-img-box {
