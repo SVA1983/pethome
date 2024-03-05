@@ -38,3 +38,66 @@
     flex-direction: row;
     gap: 10px;
 }
+.doc__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(102, 102, 102, 0.665);
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    outline: none; 
+    border-style: inset;
+    border-color: rgba(160, 160, 160, 0.642);
+    font-family: sans-serif;
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+   border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #d9d9d994; 
+   background-image: url('data:image/svg+xml'), linear-gradient(to bottom, #dc6f0956 0%,#e5e5e563 100%); 
+   background-repeat: no-repeat, repeat; 
+   background-position: right .7em top 50%, 0 0;
+   background-size: .65em auto, 100%; 
+}
+
+.doc__button:hover {
+    background: rgba(59, 57, 57, 0.1);
+    
+}
+.contact-title {
+    margin-bottom: 30px;
+}
+.rekv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rec {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    width: 800px;
+    border: 1px solid #aaa;
+}
+.rec-item {
+    grid-column: span 4;
+    height: 45px;
+    border: 1px solid #aaa;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+   
+}
+.rec-item-big {
+    grid-column: span 8;
+}
