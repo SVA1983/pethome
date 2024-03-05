@@ -25,6 +25,8 @@
   height: 480px;
   padding-left: 40px;
   margin-bottom: 130px;
+  text-align: center;
+  color: aqua;
 }
 
 .dog-img:hover {
@@ -154,13 +156,13 @@ body {
   width: 850px;
   height: 130px;
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   gap: 20px;
   margin-top: 30px;
 }
 
 .menu-link-box {
-  grid-column: span 3;
+  grid-column: span 2;
   display: flex;
   justify-content: center;
 }
@@ -944,4 +946,11 @@ body {
   color: #000000;
   color: #000000;
   font-family: "Montserrat", sans-serif;
+}
+
+.doc-button-box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }/*# sourceMappingURL=style.css.map */
