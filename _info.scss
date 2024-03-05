@@ -21,13 +21,20 @@
     grid-template-columns: repeat(12, 1fr);
   }
   .dog-img {
-    width: 228px;
-    height: 480px;
-    padding-left: 40px;
-    margin-bottom: 130px;
-    text-align: center;
-    color: aqua;
+    width: 550 px;
+    height: 400px;
   }
+
+  .dog-img-vert {
+    height: 456px;
+  }
+  .dogs-img-box {
+
+  
+    
+  }
+  
+                
   .dog-img:hover {
     transform: scale(1.5);
     transition: all 0.3s;
